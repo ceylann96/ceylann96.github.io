@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #a8bde3;
+}
+
+.intro {
+    max-width: 560px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+.bgimage {
+    height: 100vh;
+    background: url('image/bg.png');
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: top;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(9, 8, 8);
+    font-weight: 800;
+}
+
+.introduction {
+    margin-left: 13%;
+    margin-top: 9%;
+}
+
+.introduction h1 {
+    font-size: 50px;
+    color: rgb(13, 13, 13);
+    margin-bottom: 5px;
+
+}
+
+.introduction p {
+    font-size: 30px;
+    color: rgb(9, 8, 8);
+    margin-bottom: 20px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 50%;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+
+
+
+
+.container {
+    width: 60%;
+    background-color: #9fa4a8;
+    border-radius: 50px;
+}
+
+.skill {
+    padding: 20px;
+    background-color: #a8bde3;
+    height: 70vh;
+}
+
+.skill-item {
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 20vw;
+
+}
+
+.skill-head {
+    font-size: 22px;
+    margin-left: 40vw;
+    font-weight: 800;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    
+}
+
+.c {
+    width: 80%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.angular {
+    width: 70%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.html {
+    width: 40%;
+    background-color: black;
+    border-radius: 50px;
+}
+.plc {
+    width: 80%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #a8bde3;
+    height: 80vh;
+}
+.contact{
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+
+    
+    
+}
+
+/* form{
+    margin-right: 150px;
+    width: 90%;
+    max-width: 500px;
+} */
+
+.input-group{
+    margin-bottom: 10px;
+    position: relative;
+    top: 30px;
+}
+input{
+    top: 30px;
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    font-size: 10px;
+}
+label{
+ 
+    cursor:text;
+
+}
+button{
+    padding: 10px 0;
+    color: white;
+    outline: none;
+    border: 1px;
+    width: 100%;
+    cursor:pointer;
+    margin:10px ;
+    background-color: black;
+}
+
+.input-group-message{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-head {
+    font-size: 22px;
+    margin-left: -2vw;
+    font-weight: 800;
+}
+.contact2{
+    height: 220px;
+    width: 279px;
+    margin: 90px;
+    background-color:#9fa4a8;
+}
+
+.item{
+    margin-top: 20px;
+    margin-left: 10px;
+}
